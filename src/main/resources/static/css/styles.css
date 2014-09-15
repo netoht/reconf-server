@@ -1,0 +1,17 @@
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+	padding-top: 70px;
+	padding-bottom: 35px;
+}
+
+.navbar-brand > img {
+	margin-right: 8px;
+	margin-top: -7px;
+}
+.navbar-brand > em {
+	font-size: 0.6em;
+}

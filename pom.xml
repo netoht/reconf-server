@@ -55,6 +55,38 @@
         </dependencies>
     </dependencyManagement>
     <dependencies>
+        <!-- Webjars frontend -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>font-awesome</artifactId>
+            <version>4.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>3.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>angularjs</artifactId>
+            <version>1.3.0-rc.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>angular-ui</artifactId>
+            <version>0.4.0-3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>angular-ui-router</artifactId>
+            <version>0.2.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>restangular</artifactId>
+            <version>1.4.0-2</version>
+        </dependency>
+        <!-- Webjars frontend -->
         <!-- Spring Boot -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
